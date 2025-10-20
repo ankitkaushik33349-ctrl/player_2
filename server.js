@@ -52,8 +52,8 @@ app.use(async (req, res) => {
     }
 });
 
-// module.exports = app;
+module.exports = app;
 
-app.listen(PORT, () => {
-    console.log(`✅ Universal player proxy (Final Mode) is running on http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//     console.log(`✅ Universal player proxy (Final Mode) is running on http://localhost:${PORT}`);
+// });
